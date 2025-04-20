@@ -1,0 +1,91 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header, main, footer {
+      padding: 20px;
+      margin: auto;
+      max-width: 900px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    h1, h2, h3, h4 {
+      color: #2c3e50;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+    }
+
+    ul li, ol li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    #amina {
+      width: 200px;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+    }
+
+    table, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    .c-site-footer {
+      text-align: center;
+      background-color: #eee;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .links {
+      margin: 0 10px;
+    }
+
+    nav[aria-label="Main Site Links"] {
+      margin-top: 20px;
+      display: block;
+    }
+
+    iframe {
+      margin: 10px;
+      border-radius: 20px;
+    }
+
+    #copyrights {
+      text-align: center;
+      font-size: 0.9em;
+      padding-bottom: 20px;
+    }
+  
